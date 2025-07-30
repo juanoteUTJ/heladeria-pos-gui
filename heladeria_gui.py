@@ -8,8 +8,8 @@ def conectar_db():
     try:
         return mysql.connector.connect(
             host="localhost",
-            user="heladeria",
-            password="TuPasswordSeguro",  # Cambia esto
+            user="root",
+            password="12345",  # Cambia esto
             database="heladeria",
             unix_socket="/var/lib/mysql/mysql.sock"
         )
